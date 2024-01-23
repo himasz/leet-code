@@ -1,4 +1,4 @@
-package com.leet.code.zalando;
+package com.leet.code.examples.zalando;
 
 class Solution {
 
