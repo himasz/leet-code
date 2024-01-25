@@ -10,13 +10,13 @@ public class Ionos {
         int num = number - 1;
         for (int i = num; i > 1; i--) {
             if (number % i == 0) {
-                result += primeFactorization(i) + " ";
-                result += primeFactorization((number / i)) + " ";
+                result += primeFactorization(i);
+                result += primeFactorization((number / i));
                 break;
             }
         }
         if (result.isEmpty())
-            result = String.valueOf(number);
+            result = number + " ";
         return result;
     }
 
