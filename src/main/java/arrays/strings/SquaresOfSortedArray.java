@@ -3,6 +3,7 @@ package arrays.strings;
 import java.util.Arrays;
 
 public class SquaresOfSortedArray {
+    //https://leetcode.com/problems/squares-of-a-sorted-array/description/
     public int[] sortedSquares(int[] nums) {
         int i = 0;
         int j = nums.length - 1;
