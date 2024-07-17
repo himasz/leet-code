@@ -1,6 +1,7 @@
 package arrays.strings;
 
 public class MaximumAverageSubarrayI {
+    //https://leetcode.com/problems/maximum-average-subarray-i/description/
     public double findMaxAverage(int[] nums, int k) {
         int j = 0;
         int maxAverage = 0;
